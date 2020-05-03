@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Home Page</title>
-</head>
-
-<body>
-    <h1>Home Page!</h1>
-
-    <p>
-        {% for i in content %}
-        <p>{{i}}</p>
-        {% endfor %}
-    </p>
-
-</body>
-
-</html>
+{% extends "base.html" %}
+<br> {% block title %} Home Pageeeee {% endblock %}
+<br> {% block content %}{% endblock %}
